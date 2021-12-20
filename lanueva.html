@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="lanueva.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"> 
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<title>Pizzeria</title>
+</head>
+<body>
+	<div id="conten">
+		<!-- Encabezado -->
+		<div id="header">
+			<h2 class="frase1">PIZZERIA</h2>
+			<img class="logo" src="imagenes/logo.jpg" alt="">
+			<h2 class="frase2">REMOLO</h2>
+		</div>
+		<!-- Menu deslizable -->
+		<div id="menu">
+			<div id="btn-menu">
+				<button type="text" class="btn-menu"><strong>MENU</strong></button>
+			</div>
+			<div class="submenu" hidden="">
+				<button id="pizzas" type="text">PIZZAS</button>
+				<button id="empanadas" type="text">EMPANADAS</button>
+				<button id="bebidas" type="text">BEBIDAS</button>
+				<button id="postres" type="text" class='btn-postre'>POSTRE</button>
+			</div>
+		</div>
+		<!-- Fotos -->
+		<div id="fotos">
+			<div class="foto pizza1">
+				<img src="imagenes/muzzarella.jpg" alt="muzzarella"><h3>Muzzarella<br>$350</h3>
+			</div>
+
+			<div class="foto pizza2">
+				<img src="imagenes/jamonymorron.jpg" alt="jamonymorron"><h3>Jamon y Morron<br>$450</h3>
+			</div>
+
+			<div class="foto pizza3">
+				<img src="imagenes/napolitana.jpg" alt="napolitana"><h3>Napolitana<br>$450</h3>
+			</div>
+
+			<div class="foto empa1" hidden="">
+				<img src="imagenes/empanada_atun.jpg" alt="atun"><h3>Empanada de Atun<br>c/u $80 Doc$900</h3>
+			</div>
+
+			<div class="foto empa2" hidden="">
+				<img src="imagenes/empanada_carne.jpg" alt="carne"><h3>Empanada de Carne<br>c/u $80 Doc$900</h3>
+			</div>
+
+			<div class="foto empa3" hidden=''>
+				<img src="imagenes/empanada_jamonyqueso.jpg" alt="jyq" ><h3>Empanada de JyQ<br>c/u $80 Doc$900</h3>
+			</div>
+
+			<div class="foto bebida1" hidden=''>
+				<img src="imagenes/agua.jpg" alt="agua" ><h3>Agua<br>500cc $60</h3>
+			</div>
+
+			<div class="foto bebida2" hidden=''>
+				<img src="imagenes/gaseosa.jpg" alt="gaseosa" ><h3>Gaseosa<br>$80</h3>
+			</div>
+
+			<div class="foto bebida3" hidden=''>
+				<img src="imagenes/cerveza.jpg" alt="cerveza" ><h3>Cerveza<br>$100</h3>
+			</div>
+
+			<div class="foto postre1" hidden=''>
+				<img src="imagenes/bombones.jpg" alt="bombones" ><h3>Bombones<br>$250</h3>
+			</div>
+
+			<div class="foto postre2" hidden=''>
+				<img src="imagenes/almendrado.jpg" alt="almendrado" ><h3>Almendrado<br>$300</h3>
+			</div>
+
+			<div class="foto postre3" hidden=''>
+				<img src="imagenes/helado.jpg" alt="helado" ><h3>Palito Helado<br>$100</h3>
+			</div>
+		</div>
+		<!-- Botones funcionales -->
+		<div id="botones">
+			<button type="text"><strong>Agregar</strong></button>
+			<strong><a href="#">Siguiente</a></strong>
+		</div>
+		
+	</div>
+	<script src="lanueva.js"></script>
+</body>
+</html>
