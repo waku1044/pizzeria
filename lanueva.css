@@ -1,107 +1,30 @@
-*{
-	margin: 0px;
-	padding:0px;
+header{
+	background: #e4803d;
+	border-radius: 70%;	
 }
-#conten{
-	display: grid;
-	height: 100vh;
-	grid-gap: 20px;
-	grid-template-areas: 'header header header'
-						'header header header'
-						'header header header'
-						'menu menu menu'
-						'menu menu menu'
-						'menu menu menu'
-						'menu menu menu'
-						'foto foto foto'
-						'foto foto foto'
-						'foto foto foto'
-						'foto foto foto'
-						'botones botones botones'
+.font1 , .font2{
+	font-family: 'Pacifico';
 }
-img{
-	width: 200px;
-	height: 200px;
-	border: 5px solid #000;
-	border-radius: 20px;
+.font1{
+	transform: rotate(-25deg);
 }
-.logo{
-	box-shadow: 0px 0px 50px blue;
+.font2{
+	transform: rotate(25deg);
 }
-button{
-	width: 200px;
-	height: 50px
-
+nav{
+	margin-top:10px;
+	background-color: burlywood;
 }
-h2{
-	font-size: 40px;
-	font-family: 'Pacifico', cursive;
+nav li{
+	list-style: none;
+	font-style: oblique;
+	font-weight:500;
+	transition: all .5s ease-in-out;
 }
-.frase1{
+nav li:hover{
+	color: green;
+	font-weight: bold;
+	transform: scale(1.2);
+	cursor: pointer;
 	
-	transform: rotate(-30deg);
-	position: relative;
-	left: 80px;
-	bottom: 10px;
-}
-.frase2{
-	transform: rotate(30deg);
-	position: relative;
-	left: -80px;
-	bottom: 10px;
-
-}
-.foto{
-	text-align: center;
-}
-body{
-	background-color: slateblue;
-}
-#header{
-	grid-area: header;
-	display: flex;
-	align-items: center;
-	justify-content: space-around;
-	background-color: orange;
-	border-radius: 60%;
-
-}
-#header img{
-	border-radius: 50%;
-}
-#menu{
-	height: 100px;
-	display: flex;
-	grid-area: menu;
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
-	align-items: center;
-	justify-content: center;
-
-	
-
-}
-#fotos{
-	grid-area: foto;
-	display: flex;
-	width: 700px;
-	height: 300px;
-	margin: auto;
-	flex-wrap: wrap;
-	justify-content:space-between;
-	gap:20px;
-}
-#botones{
-	grid-area: botones;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	column-gap:140px;
-}
-a{
-	text-decoration: none;
-	color: #000;
-	padding: 15px 70px;
-	background-color:  #d7dbdd ;
-	border-radius: 5px;
 }
